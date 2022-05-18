@@ -44,10 +44,35 @@
   color: white;
 }
 
+#about-1-wrapper-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#about-1-wrapper-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 #about-2 {
   background-color: white;
   color: black;
   height: 100vh;
+}
+
+.about-text-1 {
+  font-size: 18px;
+  padding: 24px;
+  color:rgb(232, 232, 232);
+}
+
+.about-text-2 {
+  font-size: 18px;
+  padding: 24px;
+  text-align: right;
+  color:rgb(232, 232, 232);
 }
 
 #parts {
@@ -66,4 +91,5 @@
   font-size: 90px;
   letter-spacing: .3rem;
   padding-top: 24px;
+  padding-bottom: 24px;
 }
