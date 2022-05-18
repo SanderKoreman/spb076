@@ -6,6 +6,11 @@
   justify-content: space-between;
 }
 
+#header-wrapper {
+  background-color: white;
+  z-index: 1;
+}
+
 #navigation {
   display: flex;
   flex-direction: row;
@@ -13,7 +18,7 @@
 }
 
 .nav-item {
-  margin: 0 12px;
+  padding: 0 12px;
   text-decoration: none;
   font-size: 18px;
   letter-spacing: .1rem;

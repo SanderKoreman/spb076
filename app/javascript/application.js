@@ -2,4 +2,16 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
-window.slide = new SlideNav();
+// const header = document.getElementById("header-wrapper");
+
+// const sticky = header.offsetTop;
+
+// const stickyScroll = () => {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
+
+// stickyScroll();
