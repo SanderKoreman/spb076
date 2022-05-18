@@ -1,7 +1,69 @@
 @import "bootstrap";
 @import "header";
 @import "buttons";
+@import "images";
 
  body {
   font-family: 'Roboto', sans-serif;
  }
+
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.page-component {
+  height: 100vh;
+}
+
+#landing-component {
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 90vh !important;
+}
+
+#about-1 {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+#about-2 {
+  background-color: white;
+  color: black;
+  height: 100vh;
+}
+
+#parts {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+#contact {
+  background-color: white;
+  color: black;
+}
+
+.header-text {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 200;
+  font-size: 90px;
+  letter-spacing: .3rem;
+  padding-top: 24px;
+}

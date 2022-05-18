@@ -18,10 +18,10 @@
     <div id="header">
       <%= image_tag("logo.png", width: '10%', height: '10%') %>
       <div id="navigation">
-        <a href="#" class="nav-item">home</a>
-        <a href="#" class="nav-item">over ons</a>
-        <a href="#" class="nav-item">onderdelen</a>
-        <a href="#" id="button-contact">CONTACT</a>
+        <a href="#home" class="nav-item">home</a>
+        <a href="#about-1" class="nav-item">over ons</a>
+        <a href="#parts" class="nav-item">onderdelen</a>
+        <a href="#contact" id="button-contact">CONTACT</a>
       </div>
     </div>
     <% if notice %>
@@ -30,7 +30,7 @@
     <% if alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
+    </div>
     <%= yield %>
-  </div>
   </body>
 </html>
