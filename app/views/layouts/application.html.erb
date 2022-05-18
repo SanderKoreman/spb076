@@ -17,6 +17,12 @@
   <div class="container">
     <div id="header">
       <%= image_tag("logo.png", width: '10%', height: '10%') %>
+      <div id="navigation">
+        <a href="#" class="nav-item">home</a>
+        <a href="#" class="nav-item">over ons</a>
+        <a href="#" class="nav-item">onderdelen</a>
+        <a href="#" id="button-contact">CONTACT</a>
+      </div>
     </div>
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>

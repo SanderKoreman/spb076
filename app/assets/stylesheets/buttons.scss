@@ -1,0 +1,15 @@
+#button-contact {
+  text-decoration: none;
+  color: white;
+  letter-spacing: .1rem;
+  background-color: black;
+  padding: 6px 12px;
+  border-radius: 2px;
+  margin: 0 0 0 12px;
+  &:hover {
+    background-color: white;
+    color: black;
+    padding: 4px 10px;
+    border: 2px solid black;
+  }
+}
