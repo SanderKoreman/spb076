@@ -7,10 +7,17 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Flex:opsz,wght@8..144,200;8..144,500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+  <div class="container">
+    <div id="header">
+      <%= image_tag("logo.png", width: '10%', height: '10%') %>
+    </div>
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
@@ -18,5 +25,6 @@
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
     <%= yield %>
+  </div>
   </body>
 </html>
