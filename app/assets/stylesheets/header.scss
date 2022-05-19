@@ -3,11 +3,14 @@
   margin-bottom: 24px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
 #header-wrapper {
   background-color: white;
+  display: flex;
+  height: 70px;
   z-index: 1;
 }
 
@@ -24,7 +27,6 @@
   letter-spacing: .1rem;
   color: black;
   &:hover {
-    // margin-bottom: -2px;
     color: black;
     &:hover {
       background-color: white;
