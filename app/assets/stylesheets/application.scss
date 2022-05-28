@@ -107,4 +107,23 @@
 .contact-wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-form-text-area {
+  border: 1px solid rgb(228, 228, 228);
+  border-radius: 2px;
+  margin: 6px 0;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  color: rgb(206, 206, 206);
+  margin-top: 24px;
+  margin-bottom: 24px;
+  height: 70px;
+  a {
+    color: rgb(206, 206, 206);
+  }
 }
